@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 builder.setContentTitle("バッテリー監視");
                 builder.setContentText("バッテリーが15%以下です！");
                 builder.setTicker("Battery Warning");
-
                 NotificationManagerCompat manager = NotificationManagerCompat.from(getApplicationContext());
                 String title = "Battery Watch";
                 String msg = statusString + " " + level + "/" + scale;
